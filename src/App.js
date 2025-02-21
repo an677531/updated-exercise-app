@@ -22,7 +22,6 @@ const App = () => {
     <div className="App">
       <header className="App-header">
         <div className="Top-Bar">
-          <p> </p>
           <p>9:41</p>
           <div></div>
         </div>
@@ -38,6 +37,7 @@ const App = () => {
             {exerciseType === 'amount' && <AmountTracker />}
           </div>
         )}
+        <div className="bottom_bar"></div>
       </header>
     </div>
   );

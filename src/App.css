@@ -72,6 +72,7 @@ li {
   margin-right: 10px;
 }
 
+/*Added in styling for the input field that also reacts to hover and click*/
 input {
   width: 250px;
   padding: 10px;
@@ -86,13 +87,11 @@ input {
 
 input:focus {
   border-color: #007aff;
-  /* iOS-like blue focus */
   box-shadow: 0 0 10px rgba(0, 122, 255, 0.5);
 }
 
 input:hover {
   border-color: #5a5a5c;
-  /* Slightly lighter gray on hover */
 }
 
 /*Applying color and set sizing to buttons*/
@@ -104,8 +103,8 @@ button {
   border-radius: 15px;
   margin: 10px;
   font-size: 20px;
-  height: 50px;
-  width: 100px;
+  height: 120px;
+  width: 120px;
   transition: background 0.3s ease-in-out;
 }
 
