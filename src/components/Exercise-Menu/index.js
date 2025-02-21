@@ -8,10 +8,10 @@ const Menu = ({ onExerciseSelect }) => {
       <ul>
         <li><button onClick={() => onExerciseSelect('repetition')}>Repetition Exercise</button></li>
         <li><button onClick={() => onExerciseSelect('duration')}>Duration Exercise</button></li>
-        <li><button> Exercise</button></li>
-        <li><button> Exercise</button></li>
-        <li><button> Exercise</button></li>
-        <li><button> Exercise</button></li>
+        <li><button onClick={() => onExerciseSelect('amount')}>Amount Tracker</button></li>
+        <li><button>Future Exercise</button></li>
+        <li><button>Future Exercise</button></li>
+        <li><button>Future Exercise</button></li>
       </ul>
     </div>
   );

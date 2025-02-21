@@ -28,7 +28,7 @@ const Timer = ({ isRunning, resetTrigger }) => {
     return `${String(minutes).padStart(2, '0')}:${String(seconds).padStart(2, '0')}`;
   };
 
-  return <p>{formatTime(time)}</p>;
+  return <h1>{formatTime(time)}</h1>;
 };
 
 export default Timer;
